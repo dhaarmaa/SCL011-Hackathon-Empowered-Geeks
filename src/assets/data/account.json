@@ -1,0 +1,151 @@
+{
+  "account":[
+    {     
+      "id": 1,
+      "category":"luz",
+      "alt": "luz",
+      "img": "https://i.ibb.co/6sQZk3v/luz.png",
+      "empresas":[
+        "Casa Blanca",
+        "CEC Cooperativa electrica Curico",
+        "CGE",
+        "Chilquinta",
+        "Codiner",
+        "Coelcha",
+        "Coopelan",
+        "Edelaysen",
+        "Edelmag",
+        "Eepa",
+        "Enel Distribución",
+        "Enor Chile",
+        "Frontel",
+        "Litoral",
+        "Luz Andes",
+        "Luz Linares",
+        "Luz Osorno",
+        "Luz Parral",
+       " Saesa"
+       ]
+  },
+  {     
+    "id": 2,
+    "category":"agua",
+    "alt": "agua",
+    "img": "https://i.ibb.co/fMcHQwq/agua.png",
+    "empresas":[
+      "Aguas Altiplano",
+      "Aguas Andinas",
+      "Aguas Antofagastas",
+      "Aguas Araucania",
+      "Aguas Chañar",
+      "Aguas Cordillera",
+      "Aguas Decima",
+      "Agual del Valle",
+      "Aguas Magallanes",
+      "Aguas Manquehue",
+      "Aguas Patagonia de Ayse",
+      "Aguas Pirque S.A.",
+      "Aguas San Isidro",
+      "Aguas San Pedro",
+      "Aguas Altiplano",
+      "Aprmarquesa",
+      "As Poniente",
+      "Brisagua",
+      "Coab",
+      "Coapec",
+      "Coopagua",
+      "Cossbo",
+      "Eap Cruceral",
+      "Essal",
+      "Emapal S.A.",
+      "Essbio",
+      "Esval",
+      "Nuevosur",
+      "Sembcorp(Ex Aguas Chacabuco)",
+      "Sembcorp(Ex Aguas Santiago)",
+      "Sembcorp(Ex Aguas Servicomunal)"
+     ]
+},
+{     
+  "id": 3,
+  "category":"gas",
+  "alt": "gas",
+  "img": "https://i.ibb.co/mXMvjNb/gas.png",
+  "empresas": [
+    "Abastible Boletas",
+    "Abastible Facturas",
+    "Abastible N Cliente Granel",
+    "Abastible N Cliente Medidor",
+    "Abastible N Documento",
+    "Abastible Rut",
+    "Gas Sur S.A.",
+    "Gasco GLP S.A.",
+    "Gasco Magallanes",
+    "Gasvalpo",
+    "Lipigas Granel Envasado",
+    "Lipigas Medidor",
+    "Metrogas",
+    "Uligas"
+   ]
+},
+{     
+  "id": 4,
+  "category":"telefono",
+  "alt": "telefonomovil",
+  "img": "https://i.ibb.co/k1hcxh4/telefono.png",
+  "empresas":[
+    "Claro Empresas",
+    "Claro Movil",
+    "Claro Recarga Online",
+    "Entel Pcs",
+    "Entel Pcs Recarga online",
+    "JJD Comunicaciones",
+    "Movistar Hogar Movil",
+    "Movistar Recarga Online",
+    "Movistar  Rut Movil",
+    "Netline Mobile",
+    "Virgin Empresas",
+    "Virgin Mobile",
+    "Wom"
+   ]
+},
+{     
+  "id": 5,
+  "category":"internet",
+  "alt": "Telefoniafija-internet",
+  "img": "https://i.ibb.co/VYtYLZd/internet.png",
+  "empresas":[
+    "Comunicacion y Telefonial Rural",
+    "Entel Hogar",
+    "GTD Manquehue S.A.",
+    "Movistar Recarga Fijo Online",
+    "Telefonia de Coyhaique",
+    "Telefonia del Sur",
+    "Vtr Banda Ancha"
+   ]
+},
+{     
+  "id": 6,
+  "category":"tvcable",
+  "alt": "tvcable-tvsatelital",
+  "img": "https://i.ibb.co/mq6bP8k/tvcable.png",
+  "empresas":[
+    "Cable Color",
+    "Cable de la Costa",
+    "Grupo Setting",
+    "Loncomilla",
+    "Multicom",
+    "Mundo Pacifico Hogar",
+    "Senalmax",
+    "Telecable",
+    "Tu Ves",
+    "Tv Cable Sur",
+    "Vtr Cuenta,",
+    "Directv Instalaciones",
+    "Directv Mensualidades",
+    "Tuves Equipos",
+    "Tuves Instalaciones"
+   ]
+}
+  ]
+}
