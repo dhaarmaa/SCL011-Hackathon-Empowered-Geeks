@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react';
+import { Link } from "react-router-dom";
 
 const Optioninit=()=>{
 
   return(
    < Fragment >
-   <button>Pago Unico</button>
-   <button>Registra Cuenta</button>
-   <button>Cuentas Registradas</button>
+   <button><Link to="/CuentaUnica">Pago Unico</Link></button>
+   <button><Link to ="/RegistroDeCuenta">Registra Cuenta</Link></button>
+   <button><Link to="">Cuentas Registradas</Link></button>
    </Fragment>
 
   )
