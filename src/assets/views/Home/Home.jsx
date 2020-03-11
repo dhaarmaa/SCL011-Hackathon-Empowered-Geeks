@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, Component } from 'react'
 import Acces from '../../components/Acces'
-
 
 const Home =()=>{
   return (
