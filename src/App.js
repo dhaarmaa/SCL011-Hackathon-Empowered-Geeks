@@ -1,12 +1,14 @@
 import React from 'react';
-import {BrowserRouter as Router,
-  Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
   import Home  from './assets/views/Home/Home'
   import RegisterDate from './assets/views/RegisterDate/RegisterDate'
   import InitSection from './assets/views/Section/InitSection'
   import Uniqueaccount from './assets/views/Uniqueaccount/Uniqueaccount'
   import Registeraccount from './assets/views/Registeraccount/Registeraccount'
-import './App.css';
+  import '../src/style.css';
+// import './App.css';
+// import { Router, Route, Switch } from 'react-router-dom';
+// import Home from '../src/assets/views/Home/Home';
 
 function App() {
   return (

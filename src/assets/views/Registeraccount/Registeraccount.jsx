@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Accountmenu from '../../components/Accountmenu'
+import '../../../style.css';
 
 
 const Registeraccount =()=>{

@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    background-color: black;
+ 
+
+}
+
+i {
+    color:#FFFFFF;
+   /* no puedo alinearlo */
+   margin-right: 1em;
+}

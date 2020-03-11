@@ -1,14 +1,24 @@
 import React, { Fragment } from 'react';
-import { Link } from "react-router-dom";
-import Ellipse from "../img/Ellipse.png"
+import '../components/acces.css';
+import Navigation from '../components/Navigation.jsx';
+import logo from '../img/ojo.png';
+
 
 const Acces =()=>{
 
-  return(<Fragment>
-    <p>Mensaje de Bienvenida</p>
-    <img src={Ellipse} alt="fotoAcceso"/>
-    <button><Link to="/InicioDeSeccion">Ingresa</Link></button><button><Link to="/RegistroDatosPersonales">Registrate</Link></button>
-  </Fragment>)
+  return(
+    <Fragment >
+      <div className="acces">
+        <h1 className="headLine">Bienvenido a Vipago</h1>
+
+        <img src={logo} className="logo" alt="ojo parchado"/>
+        <Navigation to="/InicioDeSeccion" name="Ingresa"
+too="/RegistroDatosPersonales" namee="Regístrate"/>
+      </div>
+      
+
+    </Fragment>)
+
 }
 export default Acces;
 

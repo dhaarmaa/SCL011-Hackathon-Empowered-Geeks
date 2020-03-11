@@ -1,0 +1,17 @@
+.btnAccountMenu{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    background-color: black;
+    
+    
+}
+
+.accountMenu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgAccount{
+    width:164px;
+    
+}

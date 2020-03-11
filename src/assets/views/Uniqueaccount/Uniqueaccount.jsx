@@ -1,11 +1,16 @@
 import React, { Fragment } from 'react'
 import Accountmenu from '../../components/Accountmenu'
+import '../Uniqueaccount/uniqueaccount.css';
+import Header from '../../components/Headline';
 
 const Uniqueaccount=()=>{
   return(
     <Fragment>
-      <h3>Cuenta Unica</h3>
+      <div className="containerTwo">
+      <Header name="Pago único"/>
       <Accountmenu/>
+      </div>
+      
     </Fragment>
   )
 }

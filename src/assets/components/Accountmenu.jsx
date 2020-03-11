@@ -5,28 +5,34 @@ import gas from '../img/gas.png'
 import telefono from '../img/telefono.png'
 import internet from '../img/internet.png'
 import tvcable from '../img/tvcable.png'
+import '../components/accountMenu.css';
+
 const accountmenu=()=>{
+ 
+  return(
+  <Fragment>
+    <div className="accountMenu">
+    <button className="btnAccountMenu">
+  <img  src={luz}  className="imgAccount" alt="luz"/>
+</button>
+<button className="btnAccountMenu">
+  <img  src={agua} className="imgAccount"  alt="agua"/>
+</button>
+<button className="btnAccountMenu">
+  <img  src={gas} className="imgAccount"  alt="gas"/>
+</button>
+<button className="btnAccountMenu">
+  <img  src={telefono} className="imgAccount"  alt="telefono"/>
+</button >
+<button className="btnAccountMenu">
+  <img  src={internet} className="imgAccount"  alt="internet"/>
+</button>
+<button className="btnAccountMenu">
+  <img  src={tvcable} className="imgAccount"  alt="tvcable"/>
+</button>
+    </div>
 
-  return(<Fragment>
 
-<button>
-  <img  src={luz} alt="luz"/>
-</button>
-<button>
-  <img  src={agua} alt="agua"/>
-</button>
-<button>
-  <img  src={gas} alt="gas"/>
-</button>
-<button>
-  <img  src={telefono} alt="telefono"/>
-</button>
-<button>
-  <img  src={internet} alt="internet"/>
-</button>
-<button>
-  <img  src={tvcable} alt="tvcable"/>
-</button>
 
   </Fragment>)
 }
