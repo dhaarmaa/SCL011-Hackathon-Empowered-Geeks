@@ -6,6 +6,7 @@ import telefono from '../img/telefono.png'
 import internet from '../img/internet.png'
 import tvcable from '../img/tvcable.png'
 import '../components/accountMenu.css';
+import { Link } from "react-router-dom";
 
 const accountmenu=()=>{
  
@@ -30,7 +31,13 @@ const accountmenu=()=>{
 <button className="btnAccountMenu">
   <img  src={tvcable} className="imgAccount"  alt="tvcable"/>
 </button>
+
+<div>
+<Link to="/" className="arrow"><i class="fas fa-arrow-left"></i></Link>
+<Link to ="/" className="arrow"><i class="fas fa-arrow-right"></i></Link>
+</div>
     </div>
+  
 
 
 
