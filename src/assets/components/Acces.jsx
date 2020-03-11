@@ -18,6 +18,7 @@ too="/RegistroDatosPersonales" namee="Regístrate"/>
       
 
     </Fragment>)
+
 }
 export default Acces;
 
