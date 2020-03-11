@@ -6,38 +6,32 @@ import telefono from '../img/telefono.png'
 import internet from '../img/internet.png'
 import tvcable from '../img/tvcable.png'
 import '../components/accountMenu.css';
-import { Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
+
 
 const accountmenu=()=>{
  
   return(
-  
     
-
-
-
-  
-
-
     <Fragment>
       <div className="accountMenu">
         <button className="btnAccountMenu">
-          <img src={luz} className="imgAccount" alt="luz" />
+          <Link to="/Luz"><img src={luz} className="imgAccount" alt="luz" /></Link>
         </button>
         <button className="btnAccountMenu">
-          <img src={agua} className="imgAccount" alt="agua" />
+        <Link to="/Agua"><img src={agua} className="imgAccount" alt="agua" /></Link>
         </button>
         <button className="btnAccountMenu">
-          <img src={gas} className="imgAccount" alt="gas" />
+        <Link to="/Gas"><img src={gas} className="imgAccount" alt="gas" /></Link>
         </button>
         <button className="btnAccountMenu">
-          <img src={telefono} className="imgAccount" alt="telefono" />
+        <Link to="/TelefonoMovil">  <img src={telefono} className="imgAccount" alt="telefono" /></Link>
         </button>
         <button className="btnAccountMenu">
-          <img src={internet} className="imgAccount" alt="internet" />
+        <Link to="/TelefonoFijoInternet">  <img src={internet} className="imgAccount" alt="internet" /></Link>
         </button>
         <button className="btnAccountMenu">
-          <img src={tvcable} className="imgAccount" alt="tvcable" />
+        <Link to="/TvCable/Satelital">  <img src={tvcable} className="imgAccount" alt="tvcable" /></Link>
         </button>
         <div>
           <Link to="/" className="arrow"><i class="fas fa-arrow-left"></i></Link>

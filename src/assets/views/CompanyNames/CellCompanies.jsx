@@ -1,4 +1,5 @@
 import React, { Fragment, Component } from 'react'
+
 import '../Home/Home.css';
 
 const CellCompanies =()=>{
