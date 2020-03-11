@@ -1,4 +1,4 @@
-import React, { Fragment, Component } from 'react'
+import React, { Fragment } from 'react'
 import Acces from '../../components/Acces'
 import '../Home/Home.css';
 
@@ -8,7 +8,6 @@ const Home =()=>{
     <div className="containerOne"> 
       <Acces/>
     </div>
-   
   </Fragment>)
 }
 export default Home;
