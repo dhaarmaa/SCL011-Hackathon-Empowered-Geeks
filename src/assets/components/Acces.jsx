@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import '../../style.css';
+import '../components/acces.css';
 import Navigation from '../components/Navigation.jsx';
 import logo from '../img/ojo.png';
 

@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
 import Acces from '../../components/Acces'
-import '../../../../src/style.css';
+import '../Home/Home.css';
 
 
 const Home =()=>{
   return (
   <Fragment >
-    <div className="home-container"> 
+    <div className="containerOne"> 
       <Acces/>
     </div>
    

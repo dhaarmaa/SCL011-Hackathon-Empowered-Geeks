@@ -1,0 +1,20 @@
+.acces{
+    background: black ;
+    color: #FFFFFF;
+    width: 360px;
+    height: 640px;
+    /* display:flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+
+}
+/* titular  acces*/
+.headLine{
+    padding:3em;
+    text-align: center;
+}
+/* imagen de logo  acces*/
+.logo{
+    margin-left: 7em;
+  
+}

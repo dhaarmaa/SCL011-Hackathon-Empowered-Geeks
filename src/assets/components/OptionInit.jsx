@@ -1,14 +1,26 @@
 import React, { Fragment } from 'react';
 import { Link } from "react-router-dom";
-import '../../style.css';
+import '../components/optioninit.css';
+import Header from '../components/Headline';
+
 
 const Optioninit=()=>{
 
   return(
    < Fragment >
-   <button><Link to="/CuentaUnica">Pago Unico</Link></button>
-   <button><Link to ="/RegistroDeCuenta">Registra Cuenta</Link></button>
-   <button><Link to="">Cuentas Registradas</Link></button>
+   <div className="container-option">
+        <Header to="/" name="categorías"/>
+
+        <p>Por favor, seleccione la acción que desea realizar.</p>
+        <div className="category">
+          <Link to="/CuentaUnica" className="subCategory">Pago Unico</Link>
+          <Link to ="/RegistroDeCuenta" className="subCategory">Registra Cuenta</Link>
+          <Link to="" className="subCategory">Cuentas Registradas</Link>
+        </div>
+        <button className="btn-volume"><i class="fas fa-volume"></i></button>
+   </div>
+  
+
    </Fragment>
 
   )

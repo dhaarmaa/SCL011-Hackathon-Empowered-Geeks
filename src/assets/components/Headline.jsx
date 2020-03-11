@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import '../../style.css';
+import {  Link } from "react-router-dom";
+import '../components/headLine.css';
 
 
-class Navigation extends Component {
+class Header extends Component {
     render(){
         return(
-            <header>
-                 <Link to={this.props.to} className="Navigation-link">{this.props.name}</Link>
-                 <h1>Titulo</h1>
+            <header className="header">
+                 <Link to={this.props.to}  className="header-ico"><i class="fas fa-arrow-left" ></i></Link>
+                 <h1>{this.props.name}</h1>
             </header>
                    
                    
@@ -16,4 +17,4 @@ class Navigation extends Component {
     }
 }
 
-export default  Navigation;
+export default  Header;
