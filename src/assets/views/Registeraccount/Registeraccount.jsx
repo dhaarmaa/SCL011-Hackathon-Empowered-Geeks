@@ -1,13 +1,16 @@
 import React, { Fragment } from 'react'
 import Accountmenu from '../../components/Accountmenu'
-import '../../../style.css';
-
+import '../Registeraccount/registeraccount.css';
+import Header from '../../components/Headline.jsx';
 
 const Registeraccount =()=>{
 return(
   <Fragment>
-     <h3>Registra tu cuenta</h3>
-     <Accountmenu/>
+
+<div className="containerTwo">
+      <Header  to="/InicioDeSeccion"name="Registra tu cuenta"/>
+      <Accountmenu/>
+      </div>
   </Fragment>
 )
 }

@@ -7,7 +7,7 @@ const Uniqueaccount=()=>{
   return(
     <Fragment>
       <div className="containerTwo">
-      <Header name="Pago único"/>
+      <Header  to="/InicioDeSeccion"name="Pago único"/>
       <Accountmenu/>
       </div>
       
