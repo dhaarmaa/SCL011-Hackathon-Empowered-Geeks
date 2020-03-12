@@ -2,16 +2,16 @@ import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './assets/views/Home/Home'
 import RegisterDate from './assets/views/RegisterDate/RegisterDate';
-import InitSection from './assets/views/Section/InitSection'
-import Uniqueaccount from './assets/views/Uniqueaccount/Uniqueaccount'
-import Registeraccount from './assets/views/Registeraccount/Registeraccount'
-import CellCompanies from './assets/views/CompanyNames/CellCompanies'
-import GasCompanies from './assets/views/CompanyNames/GasCompanies'
-import WaterCompanies from './assets/views/CompanyNames/WaterCompanies'
-import NetCompanies from './assets/views/CompanyNames/NetCompanies'
-import TvCable from './assets/views/CompanyNames/TvCable'
-import LigthCompanies from './assets/views/CompanyNames/LightCompanies'
-import AccountRegistered from './assets/views/AccountRegistered/AccountRegistered'
+import InitSection from './assets/views/Section/InitSection';
+import Uniqueaccount from './assets/views/Uniqueaccount/Uniqueaccount';
+import Registeraccount from './assets/views/Registeraccount/Registeraccount';
+import CellCompanies from './assets/views/CompanyNames/CellCompanies';
+import GasCompanies from './assets/views/CompanyNames/GasCompanies';
+import WaterCompanies from './assets/views/CompanyNames/WaterCompanies';
+import NetCompanies from './assets/views/CompanyNames/NetCompanies';
+import TvCable from './assets/views/CompanyNames/TvCable';
+import LigthCompanies from './assets/views/CompanyNames/LightCompanies';
+import AccountRegistered from './assets/views/AccountRegistered/AccountRegistered';
 import '../src/style.css';
 
 

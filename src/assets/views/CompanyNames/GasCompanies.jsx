@@ -1,9 +1,9 @@
-import React, { Fragment, Component } from 'react'
+import React, { Fragment } from 'react';
 import '../Home/Home.css';
 
-const GasCompanies =()=>{
+const GasCompanies = () => {
   return (
-  <Fragment >
+  <Fragment>
     <button aria-label="Abastible Boletas" >Abastible Boletas</button>
     <button aria-label="Abastible Facturas">Abastible Facturas</button>
     <button aria-label="Abastible N Cliente Granel">Abastible N Cliente Granel</button>
@@ -18,6 +18,6 @@ const GasCompanies =()=>{
     <button aria-label="Lipigas Medidor">Lipigas Medidor</button>
     <button aria-label="Metrogas">Metrogas</button>
     <button aria-label="Uligas">Uligas</button>
-  </Fragment>)
-}
+  </Fragment>);
+};
 export default GasCompanies;

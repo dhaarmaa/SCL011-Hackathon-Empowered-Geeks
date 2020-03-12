@@ -1,4 +1,4 @@
-import React, { Fragment, Component } from 'react'
+import React, { Fragment  } from 'react'
 import '../Home/Home.css';
 
 const WaterCompanies =()=>{

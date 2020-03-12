@@ -1,8 +1,8 @@
-import React, { Fragment, Component } from 'react'
-import Acces from '../../components/Acces'
+import React, { Fragment } from 'react'
+
 import '../Home/Home.css';
 
-const LightCompanies =()=>{
+const LightCompanies = () => {
   return (
   <Fragment >
     <button aria-label="Casa Blanca" >Casa Blanca</button>
@@ -24,6 +24,6 @@ const LightCompanies =()=>{
     <button aria-label="Luz Osorno">Luz Osorno</button>
     <button aria-label="Luz Parral">Luz Parral</button>
     <button aria-label="Saesa">Saesa</button>
-  </Fragment>)
-}
+  </Fragment>);
+};
 export default LightCompanies;
