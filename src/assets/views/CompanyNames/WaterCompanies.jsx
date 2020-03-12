@@ -1,5 +1,5 @@
-import React, { Fragment  } from 'react'
-import '../Home/Home.css';
+import React, { Fragment, Component} from 'react';
+import '../CompanyNames/lightCompany.css';
 import { Link } from "react-router-dom";
 import Header from '../../components/Headline';
 
@@ -8,21 +8,20 @@ const WaterCompanies = () => {
   <Fragment >
 <Header  name="Empresas de Agua"/>
 
-
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Andinas">Aguas Andinas</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Altiplano" >Aguas Altiplano</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Cordillera">Aguas Cordillera</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Antofagastas">Aguas Antofagastas</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Araucania">Aguas Araucania</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Chañar">Aguas Chañar</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Manquehue">Aguas Manquehue</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Patagonia de Aysen">Aguas Patagonia de Aysen</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Esval">Esval</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Pirque S.A.">Aguas Pirque S.A.</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Decima">Aguas Decima</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Agual del Valle">Agual del Valle</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Aguas Magallanes">Aguas Magallanes</button></Link>
-<Link to="/BusquedaPorVoz"><button aria-label="Essal">Essal</button></Link>
+<Link to="/BusquedaPorVoz"><button  aria-label="Aguas Andinas" className="btnCompany">Aguas Andinas</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Aguas Altiplano" className="btnCompany">Aguas Altiplano</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Aguas Cordillera" className="btnCompany">Aguas Cordillera</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Aguas Antofagastas" className="btnCompany">Aguas Antofagastas</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Aguas Araucania" className="btnCompany">Aguas Araucania</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Aguas Chañar" className="btnCompany">Aguas Chañar</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Aguas Manquehue" className="btnCompany">Aguas Manquehue</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Aguas Patagonia de Aysen" className="btnCompany">Aguas Patagonia de Aysen</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Esval" className="btnCompany">Esval</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Aguas Pirque S.A." className="btnCompany">Aguas Pirque S.A.</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Aguas Decima" className="btnCompany">Aguas Decima</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Agual del Valle" className="btnCompany">Agual del Valle</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Aguas Magallanes"className="btnCompany">Aguas Magallanes</button></Link>
+<Link to="/BusquedaPorVoz"><button aria-label="Essal" className="btnCompany">Essal</button></Link>
 
     {/* <button aria-label="Emapal S.A.">Emapal S.A.</button>
     <button aria-label="Coopagua">Coopagua</button>
@@ -41,6 +40,6 @@ const WaterCompanies = () => {
     <button aria-label="Sembcorp(Ex Aguas Chacabuco)">Sembcorp(Ex Aguas Chacabuco)</button>
     <button aria-label="Sembcorp(Ex Aguas Santiago)">Sembcorp(Ex Aguas Santiago)</button>
     <button aria-label="Sembcorp(Ex Aguas Servicomunal)">Sembcorp(Ex Aguas Servicomunal)</button> */}
-  </Fragment>)
+  </Fragment>);
 }
 export default WaterCompanies;

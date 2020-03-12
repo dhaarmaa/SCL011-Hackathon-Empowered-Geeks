@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import {  Link } from "react-router-dom";
-import '../../../style.css';
+import {Link } from "react-router-dom";
+
 import botonregistrarnuevacuenta from '../../img/botonregistrarnuevacuenta.png';
 //import Navigation from '../../components/Navigation';
 const AcountRegistered = () => {

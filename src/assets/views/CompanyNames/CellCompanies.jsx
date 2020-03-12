@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import '../Home/Home.css';
 
-const CellCompanies =()=>{
+const CellCompanies = () => {
   return (
   <Fragment >
    

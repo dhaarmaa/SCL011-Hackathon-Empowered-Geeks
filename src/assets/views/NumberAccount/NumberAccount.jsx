@@ -1,12 +1,14 @@
-import React, { Fragment, Component } from 'react'
-//import Accountmenu from '../../components/Accountmenu'
+import React, { Fragment } from 'react';
 import '../Registeraccount/registeraccount.css';
-import Header from '../../components/Headline.jsx';
-//import Microphone from '../../components/btnMicrophone'
+import Header from '../../components/Headline';
+import buscar from '../../img/buscar.png';
+import Microphone from '../../components/btnMicrophone';
+import { Link } from "react-router-dom";
+
 const NumberAccount = () => {
 return(
-  <Fragment>
-<Header  name="Busqueda por voz"/>
+  <Fragment className="containerOne">
+<Header to="/" name="Busqueda por voz"/>
 <p>Por favor, indica el numero de la cuenta</p>
 
 <input
@@ -16,10 +18,10 @@ return(
           aria-required="true"
           name="ncuenta" 
         />
-    {/* <button >
-        <Link to="/"><img src={}  alt="buscar" /></Link>
-        </button> 
-        {/* <Microphone/> */}
+     <button >
+        <Link to="/"><img src={buscar}  alt="buscar" /></Link>
+        </button>  
+     <Microphone/> 
   </Fragment>
 
 )
