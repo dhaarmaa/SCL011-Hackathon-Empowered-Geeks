@@ -110,9 +110,6 @@ const accountmenu = () => {
         <span id="message"></span>
         <button id="escuchar" className="btnAccountMenu" onClick={recognition.start()}>APRETAR PARA GRABAR</button>
       </div>
-
-
-
     </Fragment>)
 };
 export default accountmenu;
