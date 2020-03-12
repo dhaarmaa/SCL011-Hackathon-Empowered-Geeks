@@ -4,10 +4,12 @@
   "homepage": "https://citi-vipago.firebaseapp.com/",
   "private": true,
   "dependencies": {
+    "@google-cloud/speech": "^3.6.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "firebase": "^7.10.0",
+    "node-record-lpcm16": "^1.0.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
