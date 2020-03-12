@@ -1,5 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
+import { useFirebaseApp } from "reactfire";
+import '../src/style.css';
 import Home from './assets/views/Home/Home'
 import RegisterDate from './assets/views/RegisterDate/RegisterDate';
 import InitSection from './assets/views/Section/InitSection';
@@ -14,8 +16,8 @@ import LigthCompanies from './assets/views/CompanyNames/LightCompanies';
 import AccountRegistered from './assets/views/AccountRegistered/AccountRegistered';
 import '../src/style.css';
 
-
 function App() {
+  const firebase = useFirebaseApp();
 
   return (
   <Router>

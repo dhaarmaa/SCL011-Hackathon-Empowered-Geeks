@@ -8,9 +8,11 @@ import tvcable from '../img/tvcable.png';
 import '../components/accountMenu.css';
 import {  Link } from "react-router-dom";
 
-const accountmenu = () => {
 
-  return (
+const accountmenu=()=>{
+ 
+  return(
+    
     <Fragment>
       <div className="accountMenu">
         <button className="btnAccountMenu">
@@ -31,6 +33,10 @@ const accountmenu = () => {
         <button className="btnAccountMenu">
         <Link to="/TvCable/Satelital">  <img src={tvcable} className="imgAccount" alt="tvcable" /></Link>
         </button>
+        <div>
+          <Link to="/" className="arrow"><i class="fas fa-arrow-left"></i></Link>
+            <Link to ="/" className="arrow"><i class="fas fa-arrow-right"></i></Link>
+        </div>
       </div>
 
 
