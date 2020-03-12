@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Link } from "react-router-dom";
 import '../components/optioninit.css';
 import Header from '../components/Headline';
+import Microphone from '../components/btnMicrophone';
 
 
 const Optioninit=()=>{
@@ -67,7 +68,7 @@ const Optioninit=()=>{
           <Link to ="/RegistroDeCuenta" id="registrar-cuenta" className="subCategory">Registrar Cuenta</Link>
           <Link to="/CuentaRegistrada" id="cuentas-registradas" className="subCategory">Cuentas Registradas</Link>
         </div>
-        <button className="btn-volume"><i class="fas fa-volume"></i></button>
+       <Microphone/>
    </div>
   
 
