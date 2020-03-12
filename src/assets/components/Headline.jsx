@@ -7,7 +7,7 @@ class Header extends Component {
     render(){
         return(
             <header className="header">
-                 <Link to={this.props.to}  className="header-ico"><i class="fas fa-arrow-left" ></i></Link>
+                 <Link to={this.props.to}  className="header-ico"><i className="fas fa-arrow-left" ></i></Link>
                  <h1>{this.props.name}</h1>
             </header>
                    

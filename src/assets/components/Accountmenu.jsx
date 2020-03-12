@@ -108,7 +108,7 @@ const accountmenu = () => {
           <Link to="/" className="arrow"><i class="fas fa-arrow-right"></i></Link>
         </div>
         <span id="message"></span>
-        <button id="escuchar" className="btnAccountMenu" onClick={recognition.start()}>APRETAR PARA GRABAR</button>
+        <button id="escuchar" className="btn-volume" onClick={recognition.start()}><i class="fas fa-volume"></i></button>
       </div>
     </Fragment>)
 };

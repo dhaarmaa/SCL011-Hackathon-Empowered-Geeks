@@ -1,29 +1,40 @@
-import React, { Fragment } from 'react'
-
-import '../Home/Home.css';
+import React, { Fragment, Component } from 'react'
+import Acces from '../../components/Acces'
+import '../CompanyNames/lightCompany.css';
+import Header from '../../components/Headline'
+import { Link } from 'react-router-dom';
 
 const LightCompanies = () => {
   return (
   <Fragment >
-    <button aria-label="Casa Blanca" >Casa Blanca</button>
-    <button aria-label="Cooperativa electrica Curico">CEC Cooperativa electrica Curico</button>
-    <button aria-label="CGE">CGE</button>
-    <button aria-label="Chilquinta">Chilquinta</button>
-    <button aria-label="Codiner">Codiner</button>
-    <button aria-label="Coelcha">Coelcha</button>
-    <button aria-label="Coopelan">Coopelan</button>
-    <button aria-label="Edelaysen">Edelaysen</button>
-    <button aria-label="Edelmag">Edelmag</button>
-    <button aria-label="Eepa">Eepa</button>
-    <button aria-label="Enel">Enel Distribución</button>
-    <button aria-label="Enor Chile">Enor Chile</button>
-    <button aria-label="Frontel">Frontel</button>
-    <button aria-label="Litoral">Litoral</button>
-    <button aria-label="Luz Andes">Luz Andes</button>
-    <button aria-label="Luz Linares">Luz Linares</button>
-    <button aria-label="Luz Osorno">Luz Osorno</button>
-    <button aria-label="Luz Parral">Luz Parral</button>
-    <button aria-label="Saesa">Saesa</button>
-  </Fragment>);
-};
+    <div className="LightCompanies">
+      <Header to="/" name="Agua"/>
+    <p>Por favor, seleccione la empresa de su cuenta.</p>
+    <button  className="btnCompany" aria-label="Casa Blanca" >Casa Blanca</button>
+    <button className="btnCompany" aria-label="Cooperativa electrica Curico">CEC Cooperativa electrica Curico</button>
+    <button className="btnCompany" aria-label="CGE">CGE</button>
+    <button className="btnCompany" aria-label="Chilquinta">Chilquinta</button>
+    <button className="btnCompany"  aria-label="Codiner">Codiner</button>
+    {/* <button className="btnCompany" aria-label="Coelcha">Coelcha</button>
+    <button className="btnCompany" aria-label="Coopelan">Coopelan</button>
+    <button className="btnCompany" aria-label="Edelaysen">Edelaysen</button>
+    <button className="btnCompany" aria-label="Edelmag">Edelmag</button>
+    <button className="btnCompany" aria-label="Eepa">Eepa</button>
+    <button className="btnCompany" aria-label="Enel">Enel Distribución</button>
+    <button className="btnCompany" aria-label="Enor Chile">Enor Chile</button>
+    <button className="btnCompany" aria-label="Frontel">Frontel</button>
+    <button className="btnCompany" aria-label="Litoral">Litoral</button>
+    <button className="btnCompany" aria-label="Luz Andes">Luz Andes</button>
+    <button className="btnCompany" aria-label="Luz Linares">Luz Linares</button>
+    <button className="btnCompany" aria-label="Luz Osorno">Luz Osorno</button>
+    <button className="btnCompany" aria-label="Luz Parral">Luz Parral</button>
+    <button className="btnCompany" aria-label="Saesa">Saesa</button> */}
+
+    <Link className="linkk">back</Link>
+    <Link className="linkk">next</Link>
+    </div>
+
+    
+  </Fragment>)
+}
 export default LightCompanies;

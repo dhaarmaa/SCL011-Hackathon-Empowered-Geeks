@@ -4,6 +4,7 @@ import Navigation from '../components/Navigation.jsx';
 import logo from '../img/ojo.png';
 
 const Acces = () => {
+  
   return (
     <Fragment>
       <div className="acces">
