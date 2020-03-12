@@ -1,14 +1,18 @@
 .header{
     display: flex;
-    flex-direction: row;
     color: #FFFFFF;
-    background-color: black;
- 
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
 
 }
 
-i {
-    color:#FFFFFF;
-   /* no puedo alinearlo */
-   margin-right: 1em;
+h1{
+    margin-left:1em ;
+  
 }
+
+.img-headline{
+    margin-left: 10px;
+}
+
