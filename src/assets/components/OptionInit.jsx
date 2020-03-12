@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Link } from "react-router-dom";
 import '../components/optioninit.css';
 import Header from '../components/Headline';
-import Microphone from '../components/btnMicrofono';
+import Microphone from '../components/btnMicrophone';
 
 
 const Optioninit=()=>{

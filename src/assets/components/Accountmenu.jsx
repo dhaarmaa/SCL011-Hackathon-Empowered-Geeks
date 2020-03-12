@@ -7,6 +7,7 @@ import internet from '../img/internet.png';
 import tvcable from '../img/tvcable.png';
 import '../components/accountMenu.css';
 import {  Link } from "react-router-dom";
+import Microphone from '../components/btnMicrophone';
 
 
 const accountmenu=()=>{
@@ -33,11 +34,8 @@ const accountmenu=()=>{
         <button className="btnAccountMenu">
         <Link to="/TvCable/Satelital">  <img src={tvcable} className="imgAccount" alt="tvcable" /></Link>
         </button>
-        <div>
-          <Link to="/" className="arrow"><i class="fas fa-arrow-left"></i></Link>
-            <Link to ="/" className="arrow"><i class="fas fa-arrow-right"></i></Link>
-        </div>
-        <button className="btn-volume"><i class="fas fa-volume"></i></button>
+       
+        <Microphone/>
       </div>
 
 
