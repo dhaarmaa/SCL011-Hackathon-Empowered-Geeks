@@ -4,7 +4,7 @@ import '../CompanyNames/lightCompany.css';
 import Header from '../../components/Headline'
 import { Link } from 'react-router-dom';
 
-const LightCompanies =()=>{
+const LightCompanies = () => {
   return (
   <Fragment >
     <div className="LightCompanies">

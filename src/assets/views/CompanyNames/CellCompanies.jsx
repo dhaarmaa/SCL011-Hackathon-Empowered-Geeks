@@ -1,5 +1,4 @@
-import React, { Fragment, Component } from 'react'
-
+import React, { Fragment } from 'react';
 import '../Home/Home.css';
 
 const CellCompanies =()=>{
@@ -18,6 +17,6 @@ const CellCompanies =()=>{
     <button aria-label="Virgin Empresas">Virgin Empresas</button>
     <button aria-label="Virgin Mobile">Virgin Mobile</button>
     <button aria-label="Wom">Wom</button>
-  </Fragment>)
-}
+  </Fragment>);
+};
 export default CellCompanies;
