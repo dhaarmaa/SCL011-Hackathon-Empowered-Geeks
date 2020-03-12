@@ -1,0 +1,24 @@
+.LightCompanies{
+    background-color: black;
+    width:360px ;
+    height: 640px;
+    color:#FFFFFF
+}
+
+.btnCompany{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    background: black;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    width: 90%;
+    font-size:20px ;
+
+}
+
+.linkk{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+}

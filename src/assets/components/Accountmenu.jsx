@@ -37,6 +37,7 @@ const accountmenu=()=>{
           <Link to="/" className="arrow"><i class="fas fa-arrow-left"></i></Link>
             <Link to ="/" className="arrow"><i class="fas fa-arrow-right"></i></Link>
         </div>
+        <button className="btn-volume"><i class="fas fa-volume"></i></button>
       </div>
 
 
