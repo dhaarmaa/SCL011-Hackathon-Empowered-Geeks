@@ -1,4 +1,4 @@
-import React, { Fragment, Component } from 'react'
+import React, { Fragment, Component } from 'react';
 import './lightCompany.css';
 import Header from '../../components/Headline'
 import BtnBackNext from '../../components/btnBackNext';
@@ -9,13 +9,21 @@ const TvCable =()=>{
     <div className="LightCompanies">
     <Header to="/" name="TvCable"/>
     <p>Por favor, seleccione la empresa..</p>
-    <button className="btnCompany" aria-label="Cable Color" >Cable Color</button>
-    <button className="btnCompany" aria-label="Cable de la Costa">Cable de la Costa</button>
-     <button className="btnCompany" aria-label="Telecable">Telecable</button>
-     <button className="btnCompany" aria-label="Tv Cable Sur" >Tv Cable Sur</button>
-    <button className="btnCompany" aria-label="Vtr Cuenta">Vtr Cuenta</button>
-    <button className="btnCompany" aria-label="Directv Instalaciones">Directv Instalaciones</button>
-    <button className="btnCompany"aria-label="Directv Mensualidades" >Directv Mensualidades</button>
+    <Link to="/BusquedaPorVoz"><button className="btnCompany" aria-label="Cable Color" >Cable Color</button></Link>
+    <Link to="/BusquedaPorVoz"><button className="btnCompany" aria-label="Cable de la Costa">Cable de la Costa</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Telecable">Telecable</button></Link>
+    <Link to="/BusquedaPorVoz">  <button className="btnCompany" aria-label="Tv Cable Sur" >Tv Cable Sur</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Vtr Cuenta">Vtr Cuenta</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Directv Instalaciones">Directv Instalaciones</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Directv Mensualidades" >Directv Mensualidades</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Tuves Equipos">Tuves Equipos</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Tuves Instalacione">Tuves Instalacione</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Grupo Setting">Grupo Setting</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Loncomilla" >Loncomilla</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Multicom">Multicom</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Mundo Pacifico Hogar">Mundo Pacifico Hogar</button></Link>
+    <Link to="/BusquedaPorVoz"> <button className="btnCompany" aria-label="Senalmax" >Senalmax</button></Link>
+   
     {/* <button aria-label="Tuves Equipos">Tuves Equipos</button>
     <button aria-label="Tuves Instalacione">Tuves Instalacione</button>
     <button aria-label="Grupo Setting">Grupo Setting</button>
@@ -28,6 +36,6 @@ const TvCable =()=>{
     </div>
 {/*  
     <button aria-label="Tu Ves">Tu Ves</button> */}
-  </Fragment>)
+
 }
 export default TvCable;
