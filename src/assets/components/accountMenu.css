@@ -12,14 +12,13 @@
 }
 
 .imgAccount{
-    width:164px;
-    
+    width:165px;
+}
+.btn{
+    background-color: black;
+    border: black;
 }
 
-.arrow{
-    box-sizing: border-box;
-    border: 1px solid #FFFFFF;
-    padding-left: 4.5em;
-    padding-right: 4.5em;
-    padding-block-end: 1em;
+i{
+    color:#FFFFFF;
 }

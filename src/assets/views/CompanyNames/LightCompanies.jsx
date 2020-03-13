@@ -3,12 +3,13 @@ import Acces from '../../components/Acces'
 import '../CompanyNames/lightCompany.css';
 import Header from '../../components/Headline'
 import { Link } from 'react-router-dom';
+import BtnBackNext from '../../components/btnBackNext';
 
 const LightCompanies = () => {
   return (
   <Fragment >
     <div className="LightCompanies">
-      <Header to="/" name="Agua"/>
+      <Header to="/" name="Luz"/>
     <p>Por favor, seleccione la empresa de su cuenta.</p>
     <button className="btnCompany" aria-label="Enel">Enel Distribución</button>
     <button className="btnCompany" aria-label="Enor Chile">Enor Chile</button>
@@ -28,10 +29,9 @@ const LightCompanies = () => {
     <button className="btnCompany" aria-label="Luz Linares">Luz Linares</button>
     <button className="btnCompany" aria-label="Luz Osorno">Luz Osorno</button>
     <button className="btnCompany" aria-label="Luz Parral">Luz Parral</button>
-    <button className="btnCompany" aria-label="Saesa">Saesa</button> */}
-
-    <Link className="linkk">back</Link>
-    <Link className="linkk">next</Link>
+    <button className="btnCompany" aria-label="Saesa">Saesa</button> */}      
+      <BtnBackNext/>
+      <button className="btn-volume" ><i class="fas fa-microphone fa-7x"></i></button>
     </div>
 
     
