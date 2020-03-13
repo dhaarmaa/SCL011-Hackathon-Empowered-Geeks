@@ -3,7 +3,7 @@ import '../Home/Home.css';
 
 const CellCompanies = () => {
   return (
-  <Fragment >
+  <Fragment className="containerOne" >
    
     <button aria-label="Claro Movil">Claro Movil</button>
     <button aria-label="Claro Recarga Online">Claro Recarga Online</button>

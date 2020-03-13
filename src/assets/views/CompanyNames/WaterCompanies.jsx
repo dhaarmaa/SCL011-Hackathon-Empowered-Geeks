@@ -6,6 +6,7 @@ import Header from '../../components/Headline';
 const WaterCompanies = () => {
   return (
   <Fragment >
+    <div className="containerOne">
 <Header  name="Empresas de Agua"/>
 
 <Link to="/BusquedaPorVoz"><button  aria-label="Aguas Andinas" className="btnCompany">Aguas Andinas</button></Link>
@@ -22,7 +23,7 @@ const WaterCompanies = () => {
 <Link to="/BusquedaPorVoz"><button aria-label="Agual del Valle" className="btnCompany">Agual del Valle</button></Link>
 <Link to="/BusquedaPorVoz"><button aria-label="Aguas Magallanes"className="btnCompany">Aguas Magallanes</button></Link>
 <Link to="/BusquedaPorVoz"><button aria-label="Essal" className="btnCompany">Essal</button></Link>
-
+</div>
     {/* <button aria-label="Emapal S.A.">Emapal S.A.</button>
     <button aria-label="Coopagua">Coopagua</button>
     <button aria-label="Aguas San Isidro">Aguas San Isidro</button>

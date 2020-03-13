@@ -3,7 +3,7 @@ import '../Home/Home.css';
 
 const TvCable =()=>{
   return (
-  <Fragment >
+  <Fragment className="containerOne"  >
     <button aria-label="Cable Color" >Cable Color</button>
     <button aria-label="Cable de la Costa">Cable de la Costa</button>
      <button aria-label="Telecable">Telecable</button>
