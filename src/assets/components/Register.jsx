@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import '../components/register.css';
 import Header from '../components/Headline'
 import Navigation from '../components/Navigation';
+import microfono from '../img/microfono.png';
 
 const Register =()=>{
 
@@ -59,7 +60,9 @@ const Register =()=>{
           aria-required="true"
           name="numerocelular"
         />
-        <Navigation to="/RegistroDatosPersonales" name="Repetir" too="/" namee="Gurdar"/>
+        <Navigation 
+        to="/RegistroDatosPersonales"   img={microfono}
+        too="/" namee="Guardar"/>
 
        
 

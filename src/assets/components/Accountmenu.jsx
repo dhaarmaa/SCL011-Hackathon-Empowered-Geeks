@@ -6,6 +6,7 @@ import telefono from '../img/telefono.png';
 import internet from '../img/internet.png';
 import tvcable from '../img/tvcable.png';
 import '../components/accountMenu.css';
+import Microphone from '../components/btnMicrophone';
 import { Link } from "react-router-dom";
 
 
