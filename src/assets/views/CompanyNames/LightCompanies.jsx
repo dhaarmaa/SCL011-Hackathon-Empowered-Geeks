@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react'
 import Acces from '../../components/Acces'
-import '../CompanyNames/lightCompany.css';
+import './lightCompany.css';
 import Header from '../../components/Headline'
 import { Link } from 'react-router-dom';
 
 const LightCompanies = () => {
   return (
-  <Fragment >
+  <Fragment>
+    <div className="containerOne">
     <div className="LightCompanies">
       <Header to="/" name="Agua"/>
     <p>Por favor, seleccione la empresa de su cuenta.</p>
@@ -35,7 +36,7 @@ const LightCompanies = () => {
     <Link className="linkk">next</Link>
     </div>
 
-    
+</div>
   </Fragment>)
 }
 export default LightCompanies;

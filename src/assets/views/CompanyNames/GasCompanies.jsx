@@ -3,7 +3,7 @@ import '../Home/Home.css';
 
 const GasCompanies = () => {
   return (
-  <Fragment>
+  <Fragment className="containerOne" >
     <button aria-label="Metrogas">Metrogas</button>
     <button aria-label="Abastible Boletas" >Abastible Boletas</button>
     <button aria-label="Gas Sur S.A.">Gas Sur S.A.</button>

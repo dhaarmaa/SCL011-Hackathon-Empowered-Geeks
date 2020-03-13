@@ -23,3 +23,9 @@
     border: 1px solid #FFFFFF;
     
 }
+.containerOne{
+    background-color: black;
+    width:360px ;
+    height: 100%;
+    color: white;
+}

@@ -3,7 +3,7 @@ import '../Home/Home.css';
 import { Link } from "react-router-dom";
 const TvCable =()=>{
   return (
-  <Fragment >
+  <Fragment className="containerOne" >
     <Link to="/BusquedaPorVoz"><button aria-label="Cable Color" >Cable Color</button></Link>
     <Link to="/BusquedaPorVoz"><button aria-label="Cable de la Costa">Cable de la Costa</button></Link>
     <Link to="/BusquedaPorVoz"> <button aria-label="Telecable">Telecable</button></Link>
@@ -18,6 +18,7 @@ const TvCable =()=>{
     <Link to="/BusquedaPorVoz"> <button aria-label="Multicom">Multicom</button></Link>
     <Link to="/BusquedaPorVoz"> <button aria-label="Mundo Pacifico Hogar">Mundo Pacifico Hogar</button></Link>
     <Link to="/BusquedaPorVoz"> <button aria-label="Senalmax" >Senalmax</button></Link>
+
 
   </Fragment>)
 }
