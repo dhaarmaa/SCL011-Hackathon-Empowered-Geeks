@@ -66,7 +66,7 @@ const Optioninit=()=>{
         <div className="category">
           <Link to="/CuentaUnica" id="pago-unico" className="subCategory">Pago Unico</Link>
           <Link to ="/RegistroDeCuenta" id="registrar-cuenta" className="subCategory">Registrar Cuenta</Link>
-          <Link to="/CuentaRegistrada" id="cuentas-registradas" className="subCategory">Cuentas Registradas</Link>
+          <Link to="/CuentasRegistradas" id="cuentas-registradas" className="subCategory">Cuentas Registradas</Link>
         </div>
        <Microphone/>
    </div>

@@ -24,6 +24,7 @@ const LightCompanies = () => {
     <button className="btnCompany" aria-label="Cooperativa electrica Curico">CEC Cooperativa electrica Curico</button>
     <button className="btnCompany" aria-label="Frontel">Frontel</button>
     <button className="btnCompany" aria-label="Litoral">Litoral</button>
+    {/* 
     <button className="btnCompany" aria-label="Luz Andes">Luz Andes</button>
     <button className="btnCompany" aria-label="Luz Linares">Luz Linares</button>
     <button className="btnCompany" aria-label="Luz Osorno">Luz Osorno</button>

@@ -78,28 +78,6 @@ const accountmenu = () => {
 
     <Fragment>
       <div className="accountMenu">
-<<<<<<< HEAD
-        <button className="btnAccountMenu">
-          <Link to="/Luz"><img src={luz} className="imgAccount" alt="luz" /></Link>
-        </button>
-        <button className="btnAccountMenu">
-        <Link to="/Agua"><img src={agua} className="imgAccount" alt="agua" /></Link>
-        </button>
-        <button className="btnAccountMenu">
-        <Link to="/Gas"><img src={gas} className="imgAccount" alt="gas" /></Link>
-        </button>
-        <button className="btnAccountMenu">
-        <Link to="/TelefonoMovil">  <img src={telefono} className="imgAccount" alt="telefono" /></Link>
-        </button>
-        <button className="btnAccountMenu">
-        <Link to="/TelefonoFijoInternet">  <img src={internet} className="imgAccount" alt="internet" /></Link>
-        </button>
-        <button className="btnAccountMenu">
-        <Link to="/TvCable/Satelital">  <img src={tvcable} className="imgAccount" alt="tvcable" /></Link>
-        </button>
-       
-        <Microphone/>
-=======
 
         <Link to="/Luz"><img src={luz} className="imgAccount" alt="luz" />
           <button id="luz" className="btnAccountMenu" ref={simulateClick} onClick={() => console.log('clicked')}></button>
@@ -132,7 +110,6 @@ const accountmenu = () => {
         </div>
         <span id="message"></span>
         <button id="escuchar" className="btn-volume" onClick={recognition.start()}><i class="fas fa-volume"></i></button>
->>>>>>> a07ff641693bb1113173215e74f81da69617a0f5
       </div>
     </Fragment>)
 };
