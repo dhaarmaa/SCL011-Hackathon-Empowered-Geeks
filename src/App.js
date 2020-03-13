@@ -13,6 +13,7 @@ import WaterCompanies from './assets/views/CompanyNames/WaterCompanies';
 import NetCompanies from './assets/views/CompanyNames/NetCompanies';
 import TvCable from './assets/views/CompanyNames/TvCable';
 import LigthCompanies from './assets/views/CompanyNames/LightCompanies';
+import LigthCompanies2 from './assets/views/CompanyNames/lighCompanies2';
 import AccountRegistered from './assets/views/AccountRegistered/AccountRegistered';
 import NumberAccount from './assets/views/NumberAccount/NumberAccount'
 import '../src/style.css';
@@ -30,6 +31,7 @@ function App() {
 <Route path ="/RegistroDeCuenta" component={Registeraccount} />
 <Route path ="/CuentasRegistradas" component={AccountRegistered}/>
 <Route path ="/Luz" component={LigthCompanies} />
+<Route path ="/Luz2" component={LigthCompanies2} />
 <Route path ="/Agua" component={WaterCompanies} />
 <Route path ="/TelefonoMovil" component={CellCompanies} />
 <Route path ="/TelefonoFijoInternet" component={NetCompanies} />

@@ -24,7 +24,7 @@ const CellCompanies = () => {
     <button className="btnCompany" aria-label="Netline Mobile">Netline Mobile</button>
     <button className="btnCompany"aria-label="Virgin Empresas">Virgin Empresas</button>
     <button className="btnCompany"aria-label="Claro Empresas" >Claro Empresas</button>  */}
-   <BtnBackNext to="CuentaUnica"/>
+   <BtnBackNext to="CuentaUnica" too="/TelefonoMovil2"/>
       <button className="btn-volume" ><i class="fas fa-microphone fa-7x"></i></button>
       </div>
   </Fragment>);
