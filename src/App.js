@@ -14,6 +14,7 @@ import NetCompanies from './assets/views/CompanyNames/NetCompanies';
 import TvCable from './assets/views/CompanyNames/TvCable';
 import LigthCompanies from './assets/views/CompanyNames/LightCompanies';
 import AccountRegistered from './assets/views/AccountRegistered/AccountRegistered';
+import NumberAccount from './assets/views/NumberAccount/NumberAccount'
 import '../src/style.css';
 
 function App() {
@@ -27,13 +28,14 @@ function App() {
 <Route path ="/RegistroDatosPersonales" component={RegisterDate}/>
 <Route path ="/CuentaUnica" component={Uniqueaccount} />
 <Route path ="/RegistroDeCuenta" component={Registeraccount} />
-<Route path ="/CuentasRegistradas" component={AccountRegistered} />
+<Route path ="/CuentasRegistradas" component={AccountRegistered}/>
 <Route path ="/Luz" component={LigthCompanies} />
 <Route path ="/Agua" component={WaterCompanies} />
 <Route path ="/TelefonoMovil" component={CellCompanies} />
 <Route path ="/TelefonoFijoInternet" component={NetCompanies} />
 <Route path ="/Gas" component={GasCompanies} />
 <Route path ="/TvCable/Satelital" component={TvCable} />
+<Route path ="/BusquedaPorVoz" component={NumberAccount}/>
 </Router>
   );
 }

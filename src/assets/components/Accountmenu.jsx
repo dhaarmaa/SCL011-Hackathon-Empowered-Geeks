@@ -103,8 +103,7 @@ const accountmenu = () => {
           <Link to="/TvCable/Satelital" className="btnAccountMenu">  
           <button id="cable" className="btn" ref={simulateClick} onClick={() => console.log('clicked')}><img src={tvcable} className="imgAccount" alt="tvcable" /></button>
           </Link>
-     
-          
+
         <BtnBackNext />
         <button className="btn-volume" onClick={recognition.start()}><i class="fas fa-microphone fa-7x"></i></button>
       </div>
