@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import '../Registeraccount/registeraccount.css';
+//import '../Registeraccount/registeraccount.css';
+import '../NumberAccount/NumberAccount.css';
 import Header from '../../components/Headline';
 import buscar from '../../img/buscar.png';
 import Microphone from '../../components/btnMicrophone';
